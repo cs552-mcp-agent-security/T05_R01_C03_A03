@@ -1,14 +1,16 @@
-## How to contribute
-We'd love to accept your patches and contributions to this project. There are just a few small guidelines you need to follow.
+# Contributing
 
-## Preparing a pull request for review
-Ensure your change is properly formatted by running:
+This is a community-maintained Compose sample. To keep reviews tractable:
 
-```gradle
-./gradlew spotlessApply
-```
+1. **One concern per PR.** Combine architectural moves with UI tweaks in
+   separate PRs.
+2. **Compose Compiler updates** require bumping the Kotlin version pin too;
+   call this out in your PR body.
+3. **No new third-party dependencies** in the `data/` module without a design
+   note in `docs/architecture.md`.
 
-Please correct any failures before requesting a review.
+## Reporting issues
 
-## Code reviews
-All submissions, including submissions by project members, require review. We use GitHub pull requests for this purpose. Consult [GitHub Help](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more information on using pull requests.
+Use the bug-report template under `.github/ISSUE_TEMPLATE/`. Include the device
+manufacturer, Android API level, and the exact build variant (`debug` /
+`release`).

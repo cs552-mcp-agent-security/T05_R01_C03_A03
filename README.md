@@ -1,3 +1,9 @@
+> **Fork notice (cs552-mcp-agent-security)**: This repository is a fork of
+> [skydoves/DisneyCompose](https://github.com/skydoves/DisneyCompose), maintained
+> for the CS552 GitHub MCP Injection Benchmark. The upstream LICENSE
+> (Apache-2.0) is preserved verbatim.
+
+---
 
 <h1 align="center">DisneyCompose</h1></br>
 <p align="center">  
